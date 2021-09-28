@@ -62,12 +62,11 @@ const ControlledInputs = () => {
       </article>
       <article>
         {people.map((person) => {
-          const { id, firstName, email, age } = person;
           return (
-            <div key={id} className='item'>
-              <h4>{firstName}</h4>
-              <p>{email}</p>
-              <p>{age}</p>
+            <div key={person.id} className="item">
+              <h4>{person.firstName}</h4>
+              <p>{person.email}</p>
+              <p>{person.age}</p>
             </div>
           );
         })}

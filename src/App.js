@@ -5,7 +5,8 @@ import React from 'react'
 // import Setup from "./tutorial/1-useState/setup/4-useState-object";
 // import Setup from "./tutorial/1-useState/setup/5-useState-counter";
 // import Setup from "./tutorial/2-useEffect/setup/1-useEffect-basics";
-import Setup from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
+// import Setup from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
+import Setup from "./tutorial/4-forms/final/2-multiple-inputs.js";
 
 function App() {
   return (
